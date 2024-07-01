@@ -1,0 +1,203 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kodchasan', sans-serif;
+    background-color: #FCFBF2;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 {
+    width: 100%;
+    background-color: #323232; 
+    color: #FCFBF2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    box-sizing: border-box;
+}
+
+.container1 .left {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container1 .right {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.menu p {
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu p:hover {
+    transform: scale(1.2);
+}
+
+.icons a {
+    margin: 0 10px;
+}
+
+.icons img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ima {
+    margin: 0 20px;
+}
+
+.container2 img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+
+.container2 .left, .container2 .right {
+    flex: 1;
+    text-align: center;
+    max-width: 200px;
+}
+
+.container2 h2 {
+    font-size: 4em;
+    color: #615F5F;
+    margin-bottom: 10px;
+}
+
+.container2 p {
+    font-size: 1.2em;
+    color: #495057;
+    line-height: 0.2;
+    margin-bottom: 10px;
+}
+
+.container3 {
+    background-color: #E7E5E5;
+    padding: 42px;
+    max-width: 1480px;
+    text-align: center;
+}
+
+.container3 h4 {
+    margin-top: 100;
+    font-size: 2.5em;
+    color: #615F5F;
+    margin-bottom: 20px;
+}
+
+.container3 p {
+    padding: 20px 5%;
+    font-size: 1.8em;
+    line-height: 1.6;
+    color: #615F5F;
+    margin-bottom: 150px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.projects h5 {
+    font-size: 1.5em;
+    color: #615F5F;
+    margin-bottom: 10px;
+}
+
+.projects p{
+    padding: 20px 20px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #615F5F;
+    margin-bottom: 80px;
+}
+
+.projects .left, .projects .mid, .projects .right {
+    flex: 1;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.projects .left:hover, .projects .mid:hover, .projects .right:hover {
+    background-color: #dee2e6;
+}
+
+.container4 {
+    width: 100%;
+    background-color: #323232; 
+    color: #FCFBF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 50px;
+    box-sizing: border-box;
+}
+
+.container5 {
+    background-color: #E7E5E5;
+    padding: 42px;
+    max-width: 1480px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#comic img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+}
+
+#comic h5 {
+    font-size: 1.5em;
+    color: #615F5F;
+}
+
+#comic p {
+    font-size: 1.2em;
+    color: #495057;
+}
+
